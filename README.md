@@ -2,6 +2,8 @@
 
  自定义 随意拖动 + 吸边 + 半隐藏 布局，继承自 RelativeLayout ，可装载任何子控件
  
+ ![image](./gif/11111.gif) 
+ 
  属性：
  
   <?xml version="1.0" encoding="utf-8"?>

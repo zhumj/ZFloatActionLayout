@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ZFloatActionLayout">
+        //是否开启X轴吸边
+        <attr name="ZFloatActionLayout_isAdsorbX" format="boolean"/>
+        //X轴吸边之后与边缘的距离
+        <attr name="ZFloatActionLayout_adsorbXMargin" format="dimension"/>
+        //是否开启Y轴吸边
+        <attr name="ZFloatActionLayout_isAdsorbY" format="boolean"/>
+        //Y轴吸边之后与边缘的距离
+        <attr name="ZFloatActionLayout_adsorbYMargin" format="dimension"/>
+        //是否开启半隐藏
+        <attr name="ZFloatActionLayout_isHalfHidden" format="boolean"/>
+        //显示多少时间后进行隐藏（单位：毫秒）
+        <attr name="ZFloatActionLayout_displayDuration" format="integer"/>
+        //计时间隔（单位：毫秒）
+        <attr name="ZFloatActionLayout_displayStep" format="integer"/>
+    </declare-styleable>
+
+</resources>
