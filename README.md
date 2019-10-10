@@ -4,32 +4,32 @@
 
  属性：
 
-  <declare-styleable name="ZFloatActionLayout">
-      //吸边模式
-      //default: 默认模式没有吸边
-      //both: X轴和Y轴同时吸边
-      //unilateral: 单边模式，X轴和Y轴哪个轴距离边界近就吸哪个轴
-      //adsorbX: 只有X轴吸边
-      //adsorbY: 只有Y轴吸边
-      <attr name="ZFloatActionLayout_adsorbMode" format="enum">
-          <enum name="none" value="0"/>
-          <enum name="both" value="1"/>
-          <enum name="unilateral" value="2"/>
-          <enum name="adsorbX" value="3"/>
-          <enum name="adsorbY" value="4"/>
-      </attr>
+      <declare-styleable name="ZFloatActionLayout">
+          //吸边模式
+          //default: 默认模式没有吸边
+          //both: X轴和Y轴同时吸边
+          //unilateral: 单边模式，X轴和Y轴哪个轴距离边界近就吸哪个轴
+          //adsorbX: 只有X轴吸边
+          //adsorbY: 只有Y轴吸边
+          <attr name="ZFloatActionLayout_adsorbMode" format="enum">
+              <enum name="none" value="0"/>
+              <enum name="both" value="1"/>
+              <enum name="unilateral" value="2"/>
+              <enum name="adsorbX" value="3"/>
+              <enum name="adsorbY" value="4"/>
+          </attr>
 
-      //X轴吸边之后与边缘的距离
-      <attr name="ZFloatActionLayout_adsorbXMargin" format="dimension"/>
-      //Y轴吸边之后与边缘的距离
-      <attr name="ZFloatActionLayout_adsorbYMargin" format="dimension"/>
-      //是否开启半隐藏
-      <attr name="ZFloatActionLayout_isHalfHidden" format="boolean"/>
-      //显示多少时间后进行隐藏（单位：毫秒）
-      <attr name="ZFloatActionLayout_displayDuration" format="integer"/>
-      //计时间隔（单位：毫秒）
-      <attr name="ZFloatActionLayout_displayStep" format="integer"/>
-  </declare-styleable>
+          //X轴吸边之后与边缘的距离
+          <attr name="ZFloatActionLayout_adsorbXMargin" format="dimension"/>
+          //Y轴吸边之后与边缘的距离
+          <attr name="ZFloatActionLayout_adsorbYMargin" format="dimension"/>
+          //是否开启半隐藏
+          <attr name="ZFloatActionLayout_isHalfHidden" format="boolean"/>
+          //显示多少时间后进行隐藏（单位：毫秒）
+          <attr name="ZFloatActionLayout_displayDuration" format="integer"/>
+          //计时间隔（单位：毫秒）
+          <attr name="ZFloatActionLayout_displayStep" format="integer"/>
+      </declare-styleable>
 
  使用：
 
