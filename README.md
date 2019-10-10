@@ -85,7 +85,7 @@
                 android:textSize="13sp"
                 android:gravity="center"
                 android:textAllCaps="false"
-                android:text="none"/>
+                android:text="both"/>
 
     </com.zhumj.zfloatactionlayout.ZFloatActionLayout>
 
@@ -114,7 +114,7 @@
                 android:textSize="13sp"
                 android:gravity="center"
                 android:textAllCaps="false"
-                android:text="none"/>
+                android:text="unilateral"/>
 
     </com.zhumj.zfloatactionlayout.ZFloatActionLayout>
 
@@ -143,7 +143,7 @@
                 android:textSize="13sp"
                 android:gravity="center"
                 android:textAllCaps="false"
-                android:text="none"/>
+                android:text="adsorbX"/>
 
     </com.zhumj.zfloatactionlayout.ZFloatActionLayout>
 
@@ -172,7 +172,7 @@
                 android:textSize="13sp"
                 android:gravity="center"
                 android:textAllCaps="false"
-                android:text="none"/>
+                android:text="adsorbY"/>
 
     </com.zhumj.zfloatactionlayout.ZFloatActionLayout>
 
