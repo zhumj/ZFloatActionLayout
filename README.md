@@ -6,7 +6,7 @@
 
       <declare-styleable name="ZFloatActionLayout">
           //吸边模式
-          //default: 默认模式没有吸边
+          //none: 默认模式没有吸边
           //both: X轴和Y轴同时吸边
           //unilateral: 单边模式，X轴和Y轴哪个轴距离边界近就吸哪个轴
           //adsorbX: 只有X轴吸边
