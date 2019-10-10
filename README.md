@@ -1,9 +1,9 @@
 # ZFloatActionLayout
 
  自定义 随意拖动 + 吸边 + 半隐藏 布局，继承自 RelativeLayout ，可装载任何子控件
- 
+
  属性：
- 
+
   <declare-styleable name="ZFloatActionLayout">
       //吸边模式
       //default: 默认模式没有吸边
@@ -32,7 +32,7 @@
   </declare-styleable>
 
  使用：
-   
+
     <com.zhumj.zfloatactionlayout.ZFloatActionLayout
             android:layout_width="60dp"
             android:layout_height="60dp"
@@ -60,7 +60,7 @@
 
     </com.zhumj.zfloatactionlayout.ZFloatActionLayout>
 
-    ![image](./gif/none.gif)
+![image](./gif/none.gif)
 
     <com.zhumj.zfloatactionlayout.ZFloatActionLayout
             android:layout_width="60dp"
@@ -89,7 +89,7 @@
 
     </com.zhumj.zfloatactionlayout.ZFloatActionLayout>
 
-    ![image](./gif/both.gif)
+![image](./gif/both.gif)
 
     <com.zhumj.zfloatactionlayout.ZFloatActionLayout
             android:layout_width="60dp"
@@ -118,7 +118,7 @@
 
     </com.zhumj.zfloatactionlayout.ZFloatActionLayout>
 
-    ![image](./gif/unilateral.gif)
+![image](./gif/unilateral.gif)
 
     <com.zhumj.zfloatactionlayout.ZFloatActionLayout
             android:layout_width="60dp"
@@ -147,7 +147,7 @@
 
     </com.zhumj.zfloatactionlayout.ZFloatActionLayout>
 
-    ![image](./gif/adsorbX.gif)
+![image](./gif/adsorbX.gif)
 
     <com.zhumj.zfloatactionlayout.ZFloatActionLayout
             android:layout_width="60dp"
@@ -176,4 +176,4 @@
 
     </com.zhumj.zfloatactionlayout.ZFloatActionLayout>
 
-    ![image](./gif/adsorbY.gif)
+![image](./gif/adsorbY.gif)
